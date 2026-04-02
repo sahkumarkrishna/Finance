@@ -1,0 +1,80 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,jsx}",
+  ],
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        surface: {
+          DEFAULT: '#faf9ff',
+          bright: '#faf9ff',
+          dim: '#ccdaff',
+          lowest: '#ffffff',
+          low: '#f1f3ff',
+          high: '#e1e8ff',
+          highest: '#d8e2ff',
+          container: '#e9edff',
+          'container-low': '#f1f3ff',
+          'container-high': '#e1e8ff',
+        },
+        primary: {
+          DEFAULT: '#003d9b',
+          container: '#0052cc',
+          fixed: '#dae2ff',
+          'fixed-dim': '#b2c5ff',
+        },
+        secondary: {
+          DEFAULT: '#505e83',
+          container: '#c6d3ff',
+          fixed: '#dae2ff',
+          'fixed-dim': '#b8c6f0',
+        },
+        tertiary: {
+          DEFAULT: '#004e32',
+          container: '#006844',
+          fixed: '#8df7c1',
+          'fixed-dim': '#71dba6',
+        },
+        error: {
+          DEFAULT: '#ba1a1a',
+          container: '#ffdad6',
+        },
+        background: '#faf9ff',
+        'on-background': '#051a3e',
+        'on-surface': '#051a3e',
+        'on-surface-variant': '#434654',
+        outline: '#737685',
+        'outline-variant': '#c3c6d6',
+        inverse: {
+          surface: '#1d3054',
+          'on-surface': '#edf0ff',
+          primary: '#b2c5ff',
+        },
+        'on-primary': '#ffffff',
+        'on-primary-container': '#c4d2ff',
+        'on-secondary': '#ffffff',
+        'on-secondary-container': '#4d5b7f',
+        'on-tertiary': '#ffffff',
+        'on-tertiary-container': '#7de7b2',
+        'on-error': '#ffffff',
+        'on-error-container': '#93000a',
+        'surface-tint': '#0c56d0',
+      },
+      fontFamily: {
+        headline: ['Manrope', 'sans-serif'],
+        body: ['Inter', 'sans-serif'],
+        label: ['Inter', 'sans-serif'],
+      },
+      borderRadius: {
+        DEFAULT: '0.25rem',
+        lg: '0.5rem',
+        xl: '0.75rem',
+        '2xl': '1rem',
+      },
+    },
+  },
+  plugins: [],
+}
