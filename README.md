@@ -2,7 +2,8 @@
 
 A modern, responsive finance dashboard built with React, Vite, and Tailwind CSS. Track your income, expenses, and gain valuable financial insights.
 
-![Finance Dashboard Preview](https://via.placeholder.com/1200x630/10b981/ffffff?text=Finance+Dashboard)
+## Live 
+  https://finance-theta-teal.vercel.app/
 
 ## Features
 
